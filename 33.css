@@ -1,0 +1,168 @@
+*{
+  border: 0px solid red !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  background: #005ce6;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h2 {
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size:82px;
+  background: -webkit-linear-gradient(141deg, #1a1a00 0%, #666600 51%, #cccc00 75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3 {
+  font-family: 'Cookie', cursive;
+  font-size:40px;
+  color:#00e600;
+  letter-spacing: 108px;
+  margin-top:20px;
+}
+
+p {
+   font-family: 'Indie Flower', cursive;
+   letter-spacing: 27px;
+   font-size: 24px;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+.fa {
+  border-radius: 50%;
+  margin-right:20px;
+  margin-left:20px;
+  margin-top:20px;
+  margin-bottom:20px;
+  padding: 20px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  background: black;
+  border: 2px solid white !important;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+  background: black;
+  color: white;
+}
+.fa-instagram:hover {
+  background: linear-gradient(145deg, #3051F1 10%, #C92BB7 70%) no-repeat;
+
+}
+
+.fa-youtube {
+  background: black;
+  color: white;
+
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+
+
+.fa-soundcloud {
+  background: black;
+  color: #00bfff;
+  padding-left:16px;
+  border:2px solid #00bfff !important;
+}
+.fa-soundcloud:hover {
+  background-color: #ff5500;
+}
+
+
+
+
+
+
+
+
+
+
+
+.row {
+  width: 100%;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.row-1 {
+  width: 100%;
+  display:flex;
+  flex-wrap:wrap;
+  border: 3px solid #edb3ff !important;
+}
+
+.row-2 {
+  width: 100%;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.667%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83%;
+}
+.col-11 {
+  width: 91.7%;
+}
+.col-12 {
+  width:100%;
+}
+}
